@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "pennyworth:blocks/pennyworth",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pennyworth:pennyworth_plant",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 7
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

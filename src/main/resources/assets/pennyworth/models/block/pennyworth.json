@@ -1,0 +1,9 @@
+{
+  "parent": "pennyworth:custom/pennywort",
+  "textures": {
+    "all": "pennyworth:block/pennywort",
+    "particle": "pennyworth:block/pennywort",
+    "0": "pennyworth:block/pennywort"
+  },
+  "render_type": "cutout"
+}

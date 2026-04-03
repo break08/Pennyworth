@@ -1,0 +1,153 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pennyworth",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pennyworth",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pennyworth/neoforge/biome_modifier/pennyworth_biome_modifier.json",
+          "src/main/java/net/mcreator/pennyworth/block/PennyworthBlock.java",
+          "src/main/resources/data/pennyworth/loot_table/blocks/pennyworth.json",
+          "src/main/resources/assets/pennyworth/models/block/pennyworth.json",
+          "src/main/resources/assets/pennyworth/blockstates/pennyworth.json",
+          "src/main/resources/data/pennyworth/worldgen/configured_feature/pennyworth.json",
+          "src/main/resources/data/pennyworth/worldgen/placed_feature/pennyworth.json"
+        ]
+      }
+    },
+    {
+      "name": "PennyworthPlant",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pennyworth_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pennyworth/models/item/pennyworth_plant.json",
+          "src/main/java/net/mcreator/pennyworth/item/PennyworthPlantItem.java",
+          "src/main/resources/assets/pennyworth/items/pennyworth_plant.json"
+        ]
+      }
+    },
+    {
+      "name": "RailBreaker",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rail_breaker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pennyworth/potion/RailBreakerMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "PennyworthPlantPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pennyworth_plant_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pennyworth/procedures/PennyworthPlantPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RailBreakerOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rail_breaker_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pennyworth/procedures/RailBreakerOnEffectActiveTickProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:rail_category": [
+      "Blocks.RAIL",
+      "Blocks.GOLDEN_RAIL",
+      "Blocks.DETECTOR_RAIL",
+      "Blocks.ACTIVATOR_RAIL"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.pennyworth.pennyworth": "Pennyworth",
+      "item.pennyworth.pennyworth_plant": "Pennyworth Plant",
+      "effect.pennyworth.rail_breaker": "Rail Breaker",
+      "item.pennyworth.pennyworth": "Pennyworth"
+    },
+    "vi_vn": {
+      "block.pennyworth.pennyworth": "Rau má",
+      "item.pennyworth.pennyworth_plant": "Nhánh rau má",
+      "effect.pennyworth.rail_breaker": "Người phá đường tàu",
+      "item.pennyworth.pennyworth": "Pennyworth"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/pennyworth/init/PennyworthModMobEffects.java",
+      "src/main/java/net/mcreator/pennyworth/init/PennyworthModBlocks.java",
+      "src/main/java/net/mcreator/pennyworth/init/PennyworthModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/pennyworth/PennyworthMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pennyworth",
+    "modName": "Pennyworth",
+    "version": "1.0.0",
+    "description": "Add Pennyworth (rau ma) in Minecraft",
+    "author": "break08",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.pennyworth"
+  },
+  "mcreatorVersion": 202600113616
+}

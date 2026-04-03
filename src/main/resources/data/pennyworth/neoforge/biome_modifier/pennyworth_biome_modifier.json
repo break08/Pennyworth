@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "plains",
+    "jungle",
+    "birch_forest",
+    "flower_forest",
+    "forest"
+  ],
+  "features": "pennyworth:pennyworth",
+  "step": "vegetal_decoration"
+}
